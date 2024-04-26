@@ -14,8 +14,8 @@ const router=createBrowserRouter([
   path:"/",
   element:<App />,
   children:[
-  {path:"/",element:<Home/>,},
-  {path:"/bag",element:<Bag/>},
+  {path:"/myntra-backend",element:<Home/>,},
+  {path:"/myntra-backend/bag",element:<Bag/>},
   ]
   }
   ]); 

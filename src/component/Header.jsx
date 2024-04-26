@@ -18,7 +18,7 @@ function Header(){
     return(
         <header>
         <div className="logo_container">
-            <Link to="/"><img className="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home"/></Link>
+            <Link to="/myntra-backend"><img className="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home"/></Link>
         </div>
         <nav className="nav_bar">
          <Link to="#" onClick={Enter}>Men</Link>
@@ -43,7 +43,7 @@ function Header(){
                 <span className="action_name">Wishlist</span>
             </div>
 
-            <Link className="action_container" to="/bag">
+            <Link className="action_container" to="/myntra-backend/bag">
             <IoBagOutline className="fs-5"/>
                 <span className="action_name">Bag</span>
                 <span className="bag-item-count">{itemBag.length}</span>
