@@ -1,7 +1,7 @@
 {
   "name": "myntra-react-redux-clone",
   "homepage": " https://anuragcoder9026.github.io/myntra-frontend",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
