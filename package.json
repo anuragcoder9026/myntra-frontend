@@ -1,12 +1,10 @@
 {
-  "name": "myntra-react-redux-clone",
   "homepage": " https://anuragcoder9026.github.io/myntra-frontend",
-  "private": false,
+  "name": "myntra-react-redux-clone",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
