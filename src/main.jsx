@@ -11,7 +11,7 @@ import myntraStore from './store/index.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const router=createBrowserRouter([
   {
-  path:"/",
+  path:"/myntra-backend",
   element:<App />,
   children:[
   {path:"/myntra-backend",element:<Home/>,},
